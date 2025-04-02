@@ -1,7 +1,8 @@
 /** @format */
+import Image from "next/image";
 import { Link } from "next/link";
 
-export default function RecentBlog() {
+export default function LatestPosts() {
   return (
     <section>
       <div>

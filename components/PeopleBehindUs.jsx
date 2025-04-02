@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-export default function TeamSection() {
+export default function PeopleBehindUs() {
   return (
     <section>
       <div>

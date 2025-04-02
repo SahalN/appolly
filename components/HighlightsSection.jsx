@@ -1,7 +1,7 @@
 /** @format */
 import Image from "next/image";
 
-export default function FeaturesSection() {
+export default function HighlightsSection() {
   return (
     <>
       <div>
