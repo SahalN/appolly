@@ -1,3 +1,7 @@
 /** @format */
 
 @import "tailwindcss";
+
+:root {
+  --text-primary: #5956e9;
+}
