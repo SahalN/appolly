@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function AboutSection() {
   return (
     <>
-      <section className='my-28'>
+      <section className='my-28 px-[8.5rem]'>
         <div className='text-center mb-14 px-64'>
           <h1 className='text-3xl font-semibold mb-4'>About Our App</h1>
           <p className='text-[#6C6C72]'>

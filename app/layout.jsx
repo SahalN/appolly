@@ -3,6 +3,7 @@
 import "./globals.css";
 import Image from "next/image";
 import NavBar from "@/components/NavBar";
+import Hero from "@/components/Hero";
 
 export const metadata = {
   title: "Appolly",
@@ -12,8 +13,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className='container flex flex-col m-0 p-0 max-w-full px-[8.5rem] pt-[4.62rem]'>
-        <header className='flex flex-col '>
+      <body className='container flex flex-col m-0 p-0 max-w-full '>
+        <header className='flex flex-col px-[8.5rem] bg-[url(/bg-feature.svg)] bg-no-repeat bg-center bg-cover py-[4.62rem] text-white'>
           {/* CTA */}
           <div className='flex flex-row w-full'>
             <div className='flex flex-row gap-2'>
@@ -74,9 +75,10 @@ export default function RootLayout({ children }) {
             </div>
           </div>
           <NavBar />
+          <Hero />
         </header>
-        <main className='grow'> {children}</main>
-        <footer>
+        <main className='grow '> {children}</main>
+        <footer className='px-[8.5rem] '>
           <p>&copy Hello</p>
         </footer>
       </body>

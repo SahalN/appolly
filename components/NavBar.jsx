@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <>
       {/* Navbar */}
-      <nav className='w-full flex flex-row items-center px-[3.25rem] py-[1rem]'>
+      <nav className='w-full flex flex-row items-center px-[3.25rem] mt-3 py-[1rem] bg-white rounded-2xl text-black'>
         {/* Kiri */}
         <div className='flex flex-1 flex-row gap-2.5 uppercase text-xl items-center justify-between pe-[7.25rem]'>
           <Link href='/' className='underline underline-offset-3'>
@@ -18,7 +18,7 @@ export default function NavBar() {
         </div>
 
         {/* Logo Tengah */}
-        <div className='p-4 w-[12rem]'>
+        <div className='p-4 w-[12rem] bg-white rounded-2xl'>
           <Link href='/'>
             <Image
               src='/logo-appolly.svg'

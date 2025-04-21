@@ -2,13 +2,14 @@
 
 import Image from "next/image";
 
-export default function Hero(param) {
+export default function Hero({ className }) {
   return (
     <>
-      <section className='flex flex-row  items-center mt-20 gap-[12rem]'>
-        <div className=' py-[2.25rem] px-[2rem] w-[36rem]'>
-          <div>
-            <h1 className='text-[3rem] font-normal mb-4'>
+      <section
+        className={`flex flex-row  items-center mt-20 gap-[12rem] px-[8.5rem] ${className}`}>
+        <div className=' py-[2.25rem] px-[2rem] w-[36rem] bg-white rounded-2xl '>
+          <div className=''>
+            <h1 className='text-[3rem] font-normal mb-4 text-[#5956E9]'>
               A Great App Makes Your Life Better
             </h1>
             <p className='text-[1rem] mb-12 text-[#6C6C72]'>
